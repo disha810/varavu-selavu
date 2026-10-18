@@ -1,13 +1,13 @@
 //
-//  TallyTests.swift
-//  TallyTests
+//  BudgetEngineTests.swift
+//  VaravuSelavuTests
 //
 //  Created by Divya on 15/10/26.
 //
 
 import Testing
 import Foundation
-@testable import Tally
+@testable import VaravuSelavu
 
 @MainActor
 struct BudgetEngineTests {

@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		759BFCF5308144BE00E23891 /* Tally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tally.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		759BFD04308144BF00E23891 /* TallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		759BFD0E308144BF00E23891 /* TallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759BFCF5308144BE00E23891 /* VaravuSelavu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaravuSelavu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759BFD04308144BF00E23891 /* VaravuSelavuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaravuSelavuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759BFD0E308144BF00E23891 /* VaravuSelavuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaravuSelavuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		759BFCF7308144BE00E23891 /* Tally */ = {
+		759BFCF7308144BE00E23891 /* VaravuSelavu */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Tally;
+			path = VaravuSelavu;
 			sourceTree = "<group>";
 		};
-		759BFD07308144BF00E23891 /* TallyTests */ = {
+		759BFD07308144BF00E23891 /* VaravuSelavuTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TallyTests;
+			path = VaravuSelavuTests;
 			sourceTree = "<group>";
 		};
-		759BFD11308144BF00E23891 /* TallyUITests */ = {
+		759BFD11308144BF00E23891 /* VaravuSelavuUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TallyUITests;
+			path = VaravuSelavuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,9 +69,9 @@
 		759BFCEC308144BE00E23891 = {
 			isa = PBXGroup;
 			children = (
-				759BFCF7308144BE00E23891 /* Tally */,
-				759BFD07308144BF00E23891 /* TallyTests */,
-				759BFD11308144BF00E23891 /* TallyUITests */,
+				759BFCF7308144BE00E23891 /* VaravuSelavu */,
+				759BFD07308144BF00E23891 /* VaravuSelavuTests */,
+				759BFD11308144BF00E23891 /* VaravuSelavuUITests */,
 				759BFCF6308144BE00E23891 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 		759BFCF6308144BE00E23891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				759BFCF5308144BE00E23891 /* Tally.app */,
-				759BFD04308144BF00E23891 /* TallyTests.xctest */,
-				759BFD0E308144BF00E23891 /* TallyUITests.xctest */,
+				759BFCF5308144BE00E23891 /* VaravuSelavu.app */,
+				759BFD04308144BF00E23891 /* VaravuSelavuTests.xctest */,
+				759BFD0E308144BF00E23891 /* VaravuSelavuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		759BFCF4308144BE00E23891 /* Tally */ = {
+		759BFCF4308144BE00E23891 /* VaravuSelavu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 759BFD16308144BF00E23891 /* Build configuration list for PBXNativeTarget "Tally" */;
+			buildConfigurationList = 759BFD16308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavu" */;
 			buildPhases = (
 				759BFCF1308144BE00E23891 /* Sources */,
 				759BFCF2308144BE00E23891 /* Frameworks */,
@@ -100,16 +100,16 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				759BFCF7308144BE00E23891 /* Tally */,
+				759BFCF7308144BE00E23891 /* VaravuSelavu */,
 			);
-			name = Tally;
+			name = VaravuSelavu;
 			productName = Tally;
-			productReference = 759BFCF5308144BE00E23891 /* Tally.app */;
+			productReference = 759BFCF5308144BE00E23891 /* VaravuSelavu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		759BFD03308144BF00E23891 /* TallyTests */ = {
+		759BFD03308144BF00E23891 /* VaravuSelavuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 759BFD19308144BF00E23891 /* Build configuration list for PBXNativeTarget "TallyTests" */;
+			buildConfigurationList = 759BFD19308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavuTests" */;
 			buildPhases = (
 				759BFD00308144BF00E23891 /* Sources */,
 				759BFD01308144BF00E23891 /* Frameworks */,
@@ -121,16 +121,16 @@
 				759BFD06308144BF00E23891 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				759BFD07308144BF00E23891 /* TallyTests */,
+				759BFD07308144BF00E23891 /* VaravuSelavuTests */,
 			);
-			name = TallyTests;
+			name = VaravuSelavuTests;
 			productName = TallyTests;
-			productReference = 759BFD04308144BF00E23891 /* TallyTests.xctest */;
+			productReference = 759BFD04308144BF00E23891 /* VaravuSelavuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		759BFD0D308144BF00E23891 /* TallyUITests */ = {
+		759BFD0D308144BF00E23891 /* VaravuSelavuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 759BFD1C308144BF00E23891 /* Build configuration list for PBXNativeTarget "TallyUITests" */;
+			buildConfigurationList = 759BFD1C308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavuUITests" */;
 			buildPhases = (
 				759BFD0A308144BF00E23891 /* Sources */,
 				759BFD0B308144BF00E23891 /* Frameworks */,
@@ -142,11 +142,11 @@
 				759BFD10308144BF00E23891 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				759BFD11308144BF00E23891 /* TallyUITests */,
+				759BFD11308144BF00E23891 /* VaravuSelavuUITests */,
 			);
-			name = TallyUITests;
+			name = VaravuSelavuUITests;
 			productName = TallyUITests;
-			productReference = 759BFD0E308144BF00E23891 /* TallyUITests.xctest */;
+			productReference = 759BFD0E308144BF00E23891 /* VaravuSelavuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 759BFCF0308144BE00E23891 /* Build configuration list for PBXProject "Tally" */;
+			buildConfigurationList = 759BFCF0308144BE00E23891 /* Build configuration list for PBXProject "VaravuSelavu" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -186,9 +186,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				759BFCF4308144BE00E23891 /* Tally */,
-				759BFD03308144BF00E23891 /* TallyTests */,
-				759BFD0D308144BF00E23891 /* TallyUITests */,
+				759BFCF4308144BE00E23891 /* VaravuSelavu */,
+				759BFD03308144BF00E23891 /* VaravuSelavuTests */,
+				759BFD0D308144BF00E23891 /* VaravuSelavuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,18 +232,18 @@
 /* Begin PBXTargetDependency section */
 		759BFD06308144BF00E23891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 759BFCF4308144BE00E23891 /* Tally */;
+			target = 759BFCF4308144BE00E23891 /* VaravuSelavu */;
 			targetProxy = 759BFD05308144BF00E23891 /* PBXContainerItemProxy */;
 		};
 		759BFD10308144BF00E23891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 759BFCF4308144BE00E23891 /* Tally */;
+			target = 759BFCF4308144BE00E23891 /* VaravuSelavu */;
 			targetProxy = 759BFD0F308144BF00E23891 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		759BFD14308144BF00E23891 /* Debug configuration for PBXProject "Tally" */ = {
+		759BFD14308144BF00E23891 /* Debug configuration for PBXProject "VaravuSelavu" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		759BFD15308144BF00E23891 /* Release configuration for PBXProject "Tally" */ = {
+		759BFD15308144BF00E23891 /* Release configuration for PBXProject "VaravuSelavu" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +364,7 @@
 			};
 			name = Release;
 		};
-		759BFD17308144BF00E23891 /* Debug configuration for PBXNativeTarget "Tally" */ = {
+		759BFD17308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavu" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -397,7 +397,7 @@
 			};
 			name = Debug;
 		};
-		759BFD18308144BF00E23891 /* Release configuration for PBXNativeTarget "Tally" */ = {
+		759BFD18308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavu" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		759BFD1A308144BF00E23891 /* Debug configuration for PBXNativeTarget "TallyTests" */ = {
+		759BFD1A308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavuTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,11 +448,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaravuSelavu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VaravuSelavu";
 			};
 			name = Debug;
 		};
-		759BFD1B308144BF00E23891 /* Release configuration for PBXNativeTarget "TallyTests" */ = {
+		759BFD1B308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavuTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,11 +470,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaravuSelavu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VaravuSelavu";
 			};
 			name = Release;
 		};
-		759BFD1D308144BF00E23891 /* Debug configuration for PBXNativeTarget "TallyUITests" */ = {
+		759BFD1D308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavuUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -494,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		759BFD1E308144BF00E23891 /* Release configuration for PBXNativeTarget "TallyUITests" */ = {
+		759BFD1E308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavuUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -517,35 +517,35 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		759BFCF0308144BE00E23891 /* Build configuration list for PBXProject "Tally" */ = {
+		759BFCF0308144BE00E23891 /* Build configuration list for PBXProject "VaravuSelavu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759BFD14308144BF00E23891 /* Debug configuration for PBXProject "Tally" */,
-				759BFD15308144BF00E23891 /* Release configuration for PBXProject "Tally" */,
+				759BFD14308144BF00E23891 /* Debug configuration for PBXProject "VaravuSelavu" */,
+				759BFD15308144BF00E23891 /* Release configuration for PBXProject "VaravuSelavu" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		759BFD16308144BF00E23891 /* Build configuration list for PBXNativeTarget "Tally" */ = {
+		759BFD16308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759BFD17308144BF00E23891 /* Debug configuration for PBXNativeTarget "Tally" */,
-				759BFD18308144BF00E23891 /* Release configuration for PBXNativeTarget "Tally" */,
+				759BFD17308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavu" */,
+				759BFD18308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavu" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		759BFD19308144BF00E23891 /* Build configuration list for PBXNativeTarget "TallyTests" */ = {
+		759BFD19308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759BFD1A308144BF00E23891 /* Debug configuration for PBXNativeTarget "TallyTests" */,
-				759BFD1B308144BF00E23891 /* Release configuration for PBXNativeTarget "TallyTests" */,
+				759BFD1A308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavuTests" */,
+				759BFD1B308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavuTests" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		759BFD1C308144BF00E23891 /* Build configuration list for PBXNativeTarget "TallyUITests" */ = {
+		759BFD1C308144BF00E23891 /* Build configuration list for PBXNativeTarget "VaravuSelavuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759BFD1D308144BF00E23891 /* Debug configuration for PBXNativeTarget "TallyUITests" */,
-				759BFD1E308144BF00E23891 /* Release configuration for PBXNativeTarget "TallyUITests" */,
+				759BFD1D308144BF00E23891 /* Debug configuration for PBXNativeTarget "VaravuSelavuUITests" */,
+				759BFD1E308144BF00E23891 /* Release configuration for PBXNativeTarget "VaravuSelavuUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};

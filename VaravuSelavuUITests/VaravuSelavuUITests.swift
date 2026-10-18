@@ -1,13 +1,13 @@
 //
-//  TallyUITests.swift
-//  TallyUITests
+//  VaravuSelavuUITests.swift
+//  VaravuSelavuUITests
 //
 //  Created by Divya on 15/10/26.
 //
 
 import XCTest
 
-final class TallyUITests: XCTestCase {
+final class VaravuSelavuUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
