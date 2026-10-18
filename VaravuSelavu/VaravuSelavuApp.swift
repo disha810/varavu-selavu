@@ -11,6 +11,9 @@ import SwiftData
 @main
 struct VaravuSelavuApp: App {
     var body: some Scene {
-        WindowGroup { Text("Hello, VaravuSelavu!") }
+        WindowGroup { TemplatesView() }
+            .modelContainer(for: [
+                IncomeEntry.self, ExpenseTemplate.self, PlanItem.self, SpendEntry.self
+            ])
     }
 }
