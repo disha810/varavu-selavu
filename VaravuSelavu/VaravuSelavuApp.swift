@@ -11,7 +11,7 @@ import SwiftData
 @main
 struct VaravuSelavuApp: App {
     var body: some Scene {
-        WindowGroup { TemplatesView() }
+        WindowGroup { RootView() }
             .modelContainer(for: [
                 IncomeEntry.self, ExpenseTemplate.self, PlanItem.self, SpendEntry.self
             ])
